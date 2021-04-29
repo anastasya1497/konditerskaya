@@ -1,0 +1,727 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Comfortaa', cursive;
+    /* box-sizing: border-box; */
+}
+    
+section {
+    min-height: 100vh;
+}
+
+img {
+    width: 225px;
+    height: 282px;
+    border-style: groove;
+    border-color: transparent; 
+}
+
+h5 {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Comfortaa;
+    font-style: bold;
+    font-size: 45px;
+    line-height: 64px;
+    /* line-height: 141pc; */
+    vertical-align: top;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #4B3333;
+}
+
+.header-text {
+    padding: 20px 30px;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.img_k {
+    position: relative;
+    width: 100%;
+}
+
+.img_1 {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 80%;
+    z-index: -1;
+}
+
+.header {       /*Редактирование секции header*/
+    padding-top: 44px;
+}
+
+.menu{       /*Редактирование всего класса меню*/
+    display: flex;
+    justify-content: center;
+}
+
+.menu a {       /*редактирование a в меню*/
+    padding-left: 20px;
+    margin-right: 100px;
+    color: #273439;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 2.8px;
+    padding-top: 15px;
+}
+
+.menu a:last-child{
+    margin-left: 0px;
+}
+
+.header-text {       /*Редактирование всего класса header-text*/
+    /* text-align: center; */
+    margin-top: 250px;
+    margin-left: 74px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around; /* Разделение Страницы на 2 части */
+}
+
+.header-text h1 {       /*Редактирование h1 в header-text*/
+    font-family: Comfortaa;
+    font-style: Bold;
+    font-size: 60px;
+    align-self: Left;
+    vertical-align: Top;
+    letter-spacing: 13.5px;
+    color: #4B3333;
+    letter-spacing: 10px;
+    margin-top: 50px;
+    /* display: inline-block; */
+}
+
+p {       /*Редактирование p в header-text*/
+    font-family: Comfortaa;
+    font-style: Regular;
+    font-size: 24px;
+    line-height: 34px;
+    /* line-height: 141pc; */
+    align: left;
+    vertical-align: Top;
+    letter-spacing: 2px;
+    margin-left: 70px;
+    margin-bottom: 43px;
+    /* display: inline-block; */
+}
+
+button {       /*Редактирование button в header-text*/
+    cursor: pointer;
+    color: #ffffff;
+    margin-top: 0px;
+    padding: 20px;
+    border: 2px solid #ffffff;
+    font-size: 18px;
+    letter-spacing: 2.52px;
+    transition: ease-in .25s all;
+    box-shadow: 0px 0px 10px 0px;
+    border-radius: 15px;
+    Offset: 0px, 4px;
+    background-color: #AE3B44;
+    margin-left: 117px;
+    width: 220px;
+    height: 45px;
+    /* display: inline-block; */
+}
+
+button:hover {
+    background-color: #fff;
+    color: black;
+    border-color: rgb(0, 0, 0);
+}
+
+.Order button {
+    font-family: Comfortaa;
+    font-style: Bold;
+    font-size: 16px;
+    line-height: 23px;
+    /* line-height: 141pc; */
+    align-self: left;
+    vertical-align: Top;
+    letter-spacing: 2px;
+    width: 130px;
+    height: 33px;
+}
+
+.img_1 img{
+    width: 701px;
+    height: 670px;
+    margin-right: 150px;
+    margin-top: -175px;
+}
+
+.img_2 img{
+    width: 133px;
+    height: 133px;
+    margin-top: 427px;
+    margin-right: 120px;
+}
+
+.img_2 {
+    position: relative;
+    /* padding-left: 790px; */
+    left: 700px;
+}
+
+.block3 h4{
+    margin-top: 41px;
+    text-align: center;
+    font-family: Comfortaa;
+    font-style: light;
+    font-size: 18px;
+    line-height: 25px;
+    /* line-height: 141pc; */
+    align: left;
+    vertical-align: top;
+    letter-spacing: 2px;
+    color: #4B3333;
+}
+
+.block1 {
+    max-width: 357px;
+    padding-top: 10px;
+    padding: 50px; 
+    margin-left: 25px;
+    text-decoration: none;
+    display: inline-block; 
+}
+
+.block3 {
+    max-width: 290px;
+    padding-top: 10px;
+    padding: 50px; 
+    padding-left: 30px;
+    text-decoration: none;
+    display: inline-block;
+    border-style: groove;
+    border-color: transparent;
+    background-color: #F5F5F5;
+    height: 350px;
+}
+
+.im2 {
+    margin-left: 40px;
+    margin-right: 66px;
+    width: 225px;
+    height: 282px;
+}
+
+.our-product_1 a {
+    color: #4B3333;
+    padding-left: 3px;
+}
+
+.Buy button {
+    /* position: absolute; */
+    width: 130px;
+    height: 40px;
+    left: 200px;
+    top: 1912px;
+
+    background: #AE3B44;
+    box-shadow: inset 0px 4px 4px rgba(255, 255, 255, 0.25);
+    border-radius: 7px;
+    justify-content: center;
+}
+
+.see button {
+    font-size: 16px;
+    line-height: 23px;
+    /* line-height: 141pc; */
+    align-self: left;
+    vertical-align: Top;
+    letter-spacing: 2px;
+}
+
+.header-about {       /*Редактирование всего класса header-text*/
+    /* text-align: center; */
+    margin-left: 82px; 
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around; /* Разделение Страницы на 2 части */
+}
+
+.abo p {
+    margin-left: 50px;
+    margin-right: 151px;
+    color: rgba(79, 52, 52, 0.79);
+    margin-bottom: 0px;
+}
+
+.inf img {
+    margin-left: 850px;
+    width: 75px;
+    height: 27px;
+}
+
+.img-us img {
+    width: 300px;
+    height: 421px;
+}
+
+.why-we-are {
+    padding-top: 114px;
+    padding-bottom: 97px;
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 141.5%;
+    /* identical to box height, or 64px */
+
+    letter-spacing: 0.02em;
+}
+
+.one p {
+    width: 479px;
+    height: 33px;
+    left: 306px;
+
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 141.5%;
+    /* identical to box height, or 33px */
+
+    letter-spacing: 0.02em;
+    padding-bottom: 25px; 
+    display: inline-block; 
+    /* padding-left: 306px; */
+    padding-left: 20px;
+    text-align: left;
+    padding-top: 29px;
+}
+
+.pw img {
+    width: 57.68px;
+    height: 49.29px;
+    display: inline-block;
+    padding-left: 50.08px;
+}
+
+.union {       /*Редактирование всего класса header-text*/
+    /* text-align: center; */
+    margin-left: 82px; 
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around; /* Разделение Страницы на 2 части */
+}
+
+.two img {
+    width: 371px;
+    height: 503px;
+}
+
+.block4 {
+    /* Rectangle 13 */
+    width: 355px;
+    height: 317px;
+    left: 89px;
+    top: 4628px;
+
+    background: #F5F5F5;
+    border-radius: 7px;
+    margin-top: 100px;
+    display: inline-block;
+}
+
+.texts h4 {
+    position: absolute;
+    width: 276px;
+    height: 69px;
+    left: 579px;
+    top: 4707px;
+
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 141.5%;
+    /* or 25px */
+
+    letter-spacing: 0.02em;
+
+    color: #4B3333;
+}
+
+.pd img {
+    height: 41px;
+    width: 75px;
+    padding-left: -50px;
+}
+
+.Our button {       /*Редактирование button в header-text*/
+    cursor: pointer;
+    color: #ffffff;
+    margin-top: 0px;
+    padding: 20px;
+    border: 2px solid #ffffff;
+    font-size: 18px;
+    letter-spacing: 2.52px;
+    transition: ease-in .25s all;
+    box-shadow: 0px 0px 10px 0px;
+    border-radius: 15px;
+    Offset: 0px, 4px;
+    background-color: #AE3B44;
+    margin-left: 117px;
+    width: 110px;
+    height: 40px;
+    /* display: inline-block; */
+}
+
+.Our button:hover {
+    background-color: #fff;
+    color: black;
+    border-color: rgb(0, 0, 0);
+}
+
+.block6 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.d-1 {
+    width: 79px;
+    height: 35px;
+    left: 175px;
+    top: 5370px;
+
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 141.5%;
+    /* or 35px */
+
+    letter-spacing: 0.02em;
+
+    color: rgba(75, 51, 51, 0.5);
+}
+
+p1{
+    text-align: left;
+    margin-bottom: 15px;
+    display: block;
+    width: 176px;
+    height: 35px;
+    left: 702px;
+    top: 5370px;
+    
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 141.5%;
+    /* or 35px */
+    
+    letter-spacing: 0.02em;
+    
+    color: rgba(75, 51, 51, 0.5);
+}
+
+
+input {
+    margin-right: 59px;
+    background: transparent;
+    border: 2px solid #7a7a7a;
+    padding: 27px 32px;
+    color: #3a4047;
+    font-style: 22px;
+    font-weight: 400;
+    letter-spacing: 3.08px;
+}
+
+form button {
+    cursor: pointer;
+    border: none;
+    padding: 27px 27px;
+    background-color: #AE3B44;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3.08px;
+    transition: ease .25s;
+}
+
+form button:hover {
+    background-color: #fff;
+    color: black;
+    border: 2px solid black;
+}
+ 
+
+
+/* .about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-text span{
+    color: #c4c4c4;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 3.08px;
+}
+
+.about-text h2 {
+    margin-top: 32px;
+    margin-bottom: 50px;
+    color: #000000;
+    font-style: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 4.2px;
+}
+
+.about-text p {
+    margin-bottom: 54px;
+    color: #5b5b5c;
+    font-style: 22px;
+    font-weight: 400;
+    letter-spacing: 3.08px;
+}
+
+.about-text button {       /*Редактирование button в header-text*/
+    /* cursor: pointer;
+    color: #000000;
+    margin-top: 22px;
+    padding: 20px;
+    background-color: transparent; /*transparent-прозрачный цвет*/
+    /* border: 2px solid #000000;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2.52px;
+    transition: ease-in .25s all;
+}
+
+.about-text button:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.photos {
+    margin-top: 100px;  
+    text-align: center;
+} 
+
+.photos h2 {
+    color: #000000;
+    font-style: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 7.2px;
+}
+
+.photos p {
+    margin-top: 36px;
+    color: #5b5b5c;
+    font-style: 28px;
+    font-weight: 500;
+    letter-spacing: 4.2px;
+}
+
+.photos-wrap {
+    margin-top: 90px;
+}
+
+.photos-wrap img {
+    background-size: contain;
+    margin: 10px;
+}
+
+.company-text {
+    text-align: center;
+}
+
+.company {
+    margin-top: 250px;
+    margin-bottom: 160px;
+}
+
+.company-text {
+    margin-top: 315px;
+}
+
+.company-text h2 {
+    color: #000000;
+    font-style: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 7.2px;
+}
+
+.company-text p {
+    margin-top: 30px;
+    margin-bottom: 65px;
+    color: #5b5b5c;
+    font-style: 28px;
+    font-weight: 500;
+    letter-spacing: 4.2px;
+}
+
+.company-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.company-block-1 {
+    margin-right: 34px;
+}
+
+.company-block h3 {
+    margin-top: 66px;
+    color: #000000;
+    font-style: 19px;
+    font-weight: 450;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+
+.h33 {
+    margin-left: 35px;
+}
+
+.h333 {
+    margin-left: -7px;
+}
+
+.pp {
+    margin-left: 39px;
+}
+
+.button-1 {
+    margin-left: 39px;
+}
+
+.company-block p {
+    margin-top: 55px;
+    margin-bottom: 80px;
+    color: #848484;
+    font-style: 19px;
+    font-weight: 400;
+    line-height: 41px;
+    letter-spacing: 3.8px;
+}
+
+.company-block button {
+    cursor: pointer;
+    padding: 10px 33px;
+    border: none;
+    color: #000000;
+    font-style: 16px;
+    font-weight: 400;
+    line-height: 41px;
+    text-transform: uppercase;
+    letter-spacing: 3.2px;
+    transition: ease .25s;
+}
+
+.company-block button:hover {
+    background-color: #ccc;
+}
+
+.img11 {
+    margin-left: 40px;
+    width: 700px;
+}
+
+.img12 {
+    margin-left: -5px;
+    width: 700px;
+}
+
+.send {
+    padding: 150px 0;
+    display: flex;
+    background-color: #f4f4f4;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.send-text {
+    margin-right: 111px;
+}
+
+.send-text h2{
+    color: #000000;
+    font-style: 30px;
+    font-weight: 500;
+    line-height: 41px;
+    text-transform: uppercase;
+    letter-spacing: 4.2px;
+}
+
+.send-text p {
+    color: #000000;
+    font-style: 18px;
+    font-weight: 400;
+    letter-spacing: 2.5px;
+}
+
+input {
+    margin-right: 59px;
+    background: transparent;
+    border: 2px solid #7a7a7a;
+    padding: 27px 32px;
+    color: #3a4047;
+    font-style: 22px;
+    font-weight: 400;
+    letter-spacing: 3.08px;
+}
+
+form button {
+    cursor: pointer;
+    border: none;
+    padding: 27px 87px;
+    background-color: #3a4047;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3.08px;
+    transition: ease .25s;
+}
+
+form button:hover {
+    background-color: #fff;
+    color: black;
+    border: 2px solid black;
+}
+
+.footer {
+    text-align: center;
+    padding: 95px 0;
+    color: #000000;
+    font-style: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 6.12px;
+}
+
+.footer-menu {
+    margin-bottom: 66px;
+}
+
+.footer-menu a {
+    margin-right: 55px;
+    color: black;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.footer-menu a:last-child {
+    margin-right: 0px;
+}
+
+.footer-text {
+    margin-bottom: 20px;
+} */
